@@ -1,0 +1,120 @@
+﻿
+.tag1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('pics/1980170-container-ship__31.jpg');
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.imgText {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    font-weight: 100;
+    transform: translate(-10%, -30%);
+    color: white;
+    text-align: center;
+}
+.title{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    transform: translate(-10%, -30%);
+    color: white;
+    text-align: center;
+}
+
+
+@font-face {
+    font-family: system;
+    font-style: normal;
+    font-weight: 300;
+    src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+
+.newfont {
+    font-family: "system";
+}
+
+.txt1 {
+    background-color: transparent;
+    color: #091725;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #091725 1px;
+    padding: 3px 10px;
+}
+
+
+
+.GetScheduleLabel, .FormLabel, .LocationLabel {
+    color: #091725;
+}
+
+.colstyle {
+    /*background: linear-gradient(to right, rgba(191, 186, 176, 0.93),rgba(228, 230, 224, 1));*/
+    background-color: #f5f5f5;
+    padding: 2em;
+    /*border-left: solid 8px #091725;*/
+}
+
+.btn {
+    background-color: #00233d;
+    color:white;
+}
+
+.cardbtn {
+    background-color: #00233d;
+    color: white;
+}
+
+
+/*-------------------ALL CHECKING HERE---------------------*/
+.NewsImage{
+    padding-top:2em;
+    padding-bottom:2em;
+    vertical-align:central;
+}
+
+.services {
+    background: -webkit-linear-gradient(#1488CC, #1b218d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nature {
+    background: -webkit-linear-gradient(#ACBB78, #4f601f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.awards {
+    background: -webkit-linear-gradient(#F2C94C,#bd6e00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.counter-value {
+    font-family: 'Nova Square', cursive;
+}
+
+.displayNoneClass {
+    display:none
+}
+
+.txtcomment {
+    background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    float:left;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 3px 10px;
+}

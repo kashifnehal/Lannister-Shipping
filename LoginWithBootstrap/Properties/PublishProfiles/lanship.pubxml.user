@@ -1,0 +1,727 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\lanship2</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/Login.mdf">
+      <publishTime>08/16/2020 10:42:48</publishTime>
+    </File>
+    <File Include="App_Data/Login_log.ldf">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="App_Data/Profiles.mdf">
+      <publishTime>09/28/2020 02:55:15</publishTime>
+    </File>
+    <File Include="App_Data/Profiles_log.ldf">
+      <publishTime>09/28/2020 02:55:16</publishTime>
+    </File>
+    <File Include="App_Data/ShipRoutines.mdf">
+      <publishTime>09/28/2020 02:55:15</publishTime>
+    </File>
+    <File Include="App_Data/ShipRoutines_log.ldf">
+      <publishTime>09/28/2020 02:55:15</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>08/16/2020 10:42:54</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.HtmlEditor.Sanitizer.dll">
+      <publishTime>08/16/2020 10:42:54</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>08/16/2020 10:42:54</publishTime>
+    </File>
+    <File Include="bin/LoginWithBootstrap.dll">
+      <publishTime>09/29/2020 22:49:41</publishTime>
+    </File>
+    <File Include="bootstrap-responsive.min.css">
+      <publishTime>09/24/2020 01:00:52</publishTime>
+    </File>
+    <File Include="bootstrap.min.css">
+      <publishTime>09/17/2020 14:04:06</publishTime>
+    </File>
+    <File Include="cardpics/award.jpg">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="cardpics/cargo.jpg">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="cardpics/p8.jpg">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="cards.css">
+      <publishTime>08/16/2020 10:42:48</publishTime>
+    </File>
+    <File Include="Comments.aspx">
+      <publishTime>09/29/2020 20:41:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/24/2020 01:06:16</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="demo.css">
+      <publishTime>09/27/2020 15:32:55</publishTime>
+    </File>
+    <File Include="icons/1980170-container-ship__31.jpg">
+      <publishTime>09/28/2020 18:04:02</publishTime>
+    </File>
+    <File Include="icons/calendar.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/defaultico.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/defaultlogo.ico">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/dico.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/facebook-4-32.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/footnewyork.png">
+      <publishTime>09/28/2020 18:00:38</publishTime>
+    </File>
+    <File Include="icons/google-plus-4-32.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/instagram-4-32.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/par3.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/par6.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/pin.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/schedule.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/star.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/targe.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/track.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/twitter-4-32.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/unnamed.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="icons/web-design-background.jpg">
+      <publishTime>09/29/2020 02:41:27</publishTime>
+    </File>
+    <File Include="Images/3.jpg">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Images/4.jpg">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Images/55730.jpg">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Images/6.jpg">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Images/arya.png">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Images/c3.jpg">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Images/cover.jpg">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Images/cover2.jpg">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="Images/profilepic.jpg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Images/rate1.jpg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Images/rate2.jpg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Images/rate3.png">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Images/ship-56569_1920.jpg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Images/shipbwcrop.jpg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Images/T9KcMl.jpg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>09/28/2020 18:09:10</publishTime>
+    </File>
+    <File Include="intro.js">
+      <publishTime>09/24/2020 01:42:12</publishTime>
+    </File>
+    <File Include="introjs.css">
+      <publishTime>09/25/2020 22:00:28</publishTime>
+    </File>
+    <File Include="IntroThemes/introjs-dark.css">
+      <publishTime>09/25/2020 21:17:44</publishTime>
+    </File>
+    <File Include="IntroThemes/introjs-flattener.css">
+      <publishTime>09/25/2020 21:17:44</publishTime>
+    </File>
+    <File Include="IntroThemes/introjs-modern.css">
+      <publishTime>09/25/2020 21:17:44</publishTime>
+    </File>
+    <File Include="IntroThemes/introjs-nassim.css">
+      <publishTime>09/25/2020 21:17:44</publishTime>
+    </File>
+    <File Include="IntroThemes/introjs-nazanin.css">
+      <publishTime>09/25/2020 21:17:44</publishTime>
+    </File>
+    <File Include="IntroThemes/introjs-royal.css">
+      <publishTime>09/25/2020 21:17:44</publishTime>
+    </File>
+    <File Include="map/finalworld.png">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="map/shipmiddle2new.png">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="map/shipmiddle3new.png">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="map/shipmiddle4new.png">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Master1.Master">
+      <publishTime>09/29/2020 21:23:41</publishTime>
+    </File>
+    <File Include="newsimage/cnet-1.svg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="newsimage/cnet.png">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="newsimage/cnet.svg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="newsimage/Forbes.png">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="newsimage/forbes.svg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="newsimage/Forbes11png.png">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="newsimage/new-york-times.svg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="newsimage/the-guardian.svg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="newsimage/usa-today-logo-png-8-original.png">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="newsimage/usa-today.svg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/16/2020 10:42:48</publishTime>
+    </File>
+    <File Include="pics/1.jpg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="pics/1980170-container-ship__31.jpg">
+      <publishTime>09/28/2020 18:04:09</publishTime>
+    </File>
+    <File Include="pics/2.jpg">
+      <publishTime>09/23/2020 02:24:08</publishTime>
+    </File>
+    <File Include="pics/284-2846396_footer-wrapper-backg-footer-background-images-png.png">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="pics/3.jpg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="pics/burr.png">
+      <publishTime>09/27/2020 16:02:55</publishTime>
+    </File>
+    <File Include="pics/c490739223326be0ddccbf3bd1d7381ce7926fa5.webp">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="pics/default.png">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="pics/defaultlogo.ico">
+      <publishTime>08/16/2020 10:42:50</publishTime>
+    </File>
+    <File Include="pics/f32022c50662445ba892330e1b8d1cd7.jpeg">
+      <publishTime>09/27/2020 13:29:09</publishTime>
+    </File>
+    <File Include="pics/footer-back.png">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="pics/footnewyork.png">
+      <publishTime>09/27/2020 13:03:05</publishTime>
+    </File>
+    <File Include="pics/gandhi.jpg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="pics/jacket pic.jpeg">
+      <publishTime>09/23/2020 02:26:26</publishTime>
+    </File>
+    <File Include="pics/office1.jpg">
+      <publishTime>09/11/2020 13:13:00</publishTime>
+    </File>
+    <File Include="pics/photo-1504805572947-34fad45aed93.jfif">
+      <publishTime>09/26/2020 01:37:03</publishTime>
+    </File>
+    <File Include="pics/picturemessage_tklrbrc5.hci.png">
+      <publishTime>09/29/2020 18:19:02</publishTime>
+    </File>
+    <File Include="pics/profilepic.jpg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="pics/ship-56569_1920.png">
+      <publishTime>09/27/2020 16:26:19</publishTime>
+    </File>
+    <File Include="pics/ship-k56569_1920.png">
+      <publishTime>09/29/2020 02:22:35</publishTime>
+    </File>
+    <File Include="pics/tumblr_e92a6006a6006601bfdc0c9f18eaf870_289da1ba_540.jpg">
+      <publishTime>09/26/2020 01:30:56</publishTime>
+    </File>
+    <File Include="pics/wathoi0ep7j31.jpg">
+      <publishTime>09/29/2020 20:51:09</publishTime>
+    </File>
+    <File Include="pics/web-design-background.jpg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="pics/website-startups.jpg">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Profile.aspx">
+      <publishTime>09/29/2020 02:36:24</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>08/16/2020 10:42:48</publishTime>
+    </File>
+    <File Include="Routine.aspx">
+      <publishTime>09/29/2020 02:16:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js.map">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js.map">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js.map">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js.map">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/index.d.ts">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/index.js.flow">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.map">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.map">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/login.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js.map">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js.map">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/popper.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/popper.js.map">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.map">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/README.md">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/index.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/defaults.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/destroy.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/disableEventListeners.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/enableEventListeners.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/placements.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/update.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/applyStyle.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/arrow.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/computeStyle.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/flip.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/hide.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/index.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/inner.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/keepTogether.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/offset.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/preventOverflow.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/shift.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/clockwise.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/computeAutoPlacement.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/debounce.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/find.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/findCommonOffsetParent.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/findIndex.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBordersSize.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBoundaries.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBoundingClientRect.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getClientRect.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getFixedPositionOffsetParent.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetParent.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetRect.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetRectRelativeToArbitraryNode.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOppositePlacement.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOppositeVariation.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOuterSizes.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getParentNode.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getPopperOffsets.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getReferenceNode.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getReferenceOffsets.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getRoot.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getRoundedOffsets.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getScroll.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getScrollParent.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getStyleComputedProperty.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getSupportedPropertyName.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getWindow.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getWindowSizes.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/includeScroll.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/index.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isBrowser.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isFixed.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isFunction.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isIE.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isModifierEnabled.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isModifierRequired.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isNumeric.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isOffsetContainer.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/removeEventListeners.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/runModifiers.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setAttributes.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setStyles.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setupEventListeners.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js">
+      <publishTime>08/16/2020 10:42:54</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js.map">
+      <publishTime>08/16/2020 10:42:54</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js">
+      <publishTime>08/16/2020 10:42:54</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js.map">
+      <publishTime>08/16/2020 10:42:54</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.flow">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.map">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js">
+      <publishTime>08/16/2020 10:42:52</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js.map">
+      <publishTime>08/16/2020 10:42:54</publishTime>
+    </File>
+    <File Include="Style/Style.css">
+      <publishTime>08/16/2020 10:42:54</publishTime>
+    </File>
+    <File Include="StyleComments.css">
+      <publishTime>09/16/2020 02:43:34</publishTime>
+    </File>
+    <File Include="StyleIndex.css">
+      <publishTime>09/29/2020 19:48:56</publishTime>
+    </File>
+    <File Include="StyleMaster.css">
+      <publishTime>09/29/2020 19:49:01</publishTime>
+    </File>
+    <File Include="StyleMaster2.css">
+      <publishTime>09/29/2020 19:48:59</publishTime>
+    </File>
+    <File Include="StyleRoutine.css">
+      <publishTime>08/16/2020 10:42:48</publishTime>
+    </File>
+    <File Include="StyleTab.css">
+      <publishTime>09/22/2020 12:25:42</publishTime>
+    </File>
+    <File Include="StyleUser.css">
+      <publishTime>09/29/2020 02:41:55</publishTime>
+    </File>
+    <File Include="tour.js">
+      <publishTime>09/24/2020 03:03:32</publishTime>
+    </File>
+    <File Include="User.aspx">
+      <publishTime>09/29/2020 22:00:21</publishTime>
+    </File>
+    <File Include="UserLogin.aspx">
+      <publishTime>08/16/2020 10:42:48</publishTime>
+    </File>
+    <File Include="UserMaster.Master">
+      <publishTime>08/16/2020 10:42:48</publishTime>
+    </File>
+    <File Include="UserRegister.aspx">
+      <publishTime>08/16/2020 10:42:48</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/29/2020 21:11:26</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

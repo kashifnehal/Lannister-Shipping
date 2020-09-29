@@ -1,0 +1,65 @@
+﻿body {
+}
+.txtcomment {
+    background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    float:left;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 3px 10px;
+}
+
+.starRating{
+    width:50px;
+    height:50px;
+    cursor:pointer;
+    background-repeat:no-repeat;
+    display:block;
+
+}
+
+.FilledStars{
+    background-image:url('Images/rate3.png');
+}
+
+.WaitingStars{
+    background-image:url('Images/star.png')
+}
+
+.EmptyStars{
+    background-image:url('Images/unnamed.png')
+}
+
+@font-face {
+    font-family: system;
+    font-style: normal;
+    font-weight: 300;
+    src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+
+.newfont {
+    font-family: "system";
+}
+
+.rad{
+    border-radius:10px;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.example::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+/* Hide scrollbar for IE, Edge and Firefox */   
+    

@@ -1,0 +1,35 @@
+﻿
+.Login-register-tab{
+    margin-top:0;
+    font-size:larger;
+    padding:1em;
+    font-size:small;
+    font-weight:500;
+}
+
+.LoginLink .RegisterLink{
+    float:left;
+    color:white;
+}
+
+.AllFoot {
+    background-image: url('icons/footnewyork.png');
+    background-repeat: repeat-x;
+    max-width: 99%;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+}
+
+.foot1 {
+    position:absolute;
+    bottom:1.5em;
+    left:10em;
+    color: white;
+}
+
+
+/*.foot{
+    margin-top:2em;
+    background-color:green;
+}*/

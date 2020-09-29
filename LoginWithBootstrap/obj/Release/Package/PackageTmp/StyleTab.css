@@ -1,0 +1,71 @@
+﻿/*.divTab
+{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 3px 10px 2px 10px;
+}
+
+.divTab:hover
+{
+    color: #c8ccd0;
+}
+
+.MyTabStyle .ajax__tab_header
+{
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+}
+.MyTabStyle .ajax__tab_header .ajax__tab_outer
+{
+    border-color: #4597d1;
+    color: #ffffff;
+    margin-left: 1px;
+    border: 1px solid black;
+    background-color: #4597d1;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.MyTabStyle .ajax__tab_header .ajax__tab_outer1
+{
+    border-color: #4597d1;
+    color: #ffffff;
+    padding-left: 2px;
+    margin-right: 3px;
+    border: 1px solid black;
+    background-color: white;
+}
+.MyTabStyle .ajax__tab_header .ajax__tab_inner
+{
+    border-color: #666;
+    color: #ffffff;
+}
+.MyTabStyle .ajax__tab_hover .ajax__tab_outer
+{
+    background-color: #2158a0;
+}
+.MyTabStyle .ajax__tab_hover .ajax__tab_inner
+{
+    color: #ffffff;
+}
+.MyTabStyle .ajax__tab_active .ajax__tab_outer
+{
+    border-bottom-color: #2b5f9a;
+    background-color: #2158a0;
+    color: #2158a0;
+}
+.MyTabStyle .ajax__tab_active .ajax__tab_inner
+{
+    color: #ffffff;
+    border-color: #333;
+}
+.MyTabStyle .ajax__tab_body
+{
+    font-family: verdana,tahoma,helvetica;
+    font-size: 10pt;
+    background-color: #fff;
+    border-top-width: 0;
+    border: solid 1px #d7d7d7;
+    border-top-color: #ffffff;
+}*/
